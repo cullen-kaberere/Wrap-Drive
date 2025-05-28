@@ -896,3 +896,8 @@ body {
     font-size: 1.2rem;
   }
 }
+
+.logo {
+  height: 50px;
+  width: auto;
+}

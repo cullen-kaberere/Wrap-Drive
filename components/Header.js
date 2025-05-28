@@ -10,7 +10,7 @@ export default function Header() {
       <div className="container">
         <div className="nav-brand">
           <Link href="/">
-            <h1>Wrap & Drive</h1>
+            <img src="/logyyy.png" alt="Wrap & Drive Logo" className="logo" />
           </Link>
         </div>
 
