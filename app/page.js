@@ -31,7 +31,7 @@ export default function Home() {
               </button>
             </div>
             <div className="hero-image">
-              <img src="/placeholder.svg?height=500&width=800" alt="Customized luxury car with vinyl wrap" />
+              <img src="/ip1.jpg?height=500&width=800" alt="Customized luxury car with vinyl wrap" />
             </div>
           </div>
         </section>
@@ -71,17 +71,17 @@ export default function Home() {
             <h2>Our Services</h2>
             <div className="services-grid">
               <div className="service-card">
-                <img src="/placeholder.svg?height=200&width=300" alt="Vinyl Wrap" />
+                <img src="/ip5.jpg?height=200&width=300" alt="Vinyl Wrap" />
                 <h3>Vinyl Wraps</h3>
                 <p>Complete color changes and custom designs</p>
               </div>
               <div className="service-card">
-                <img src="/placeholder.svg?height=200&width=300" alt="Paint Protection Film" />
+                <img src="/ip4.jpg?height=200&width=300" alt="Paint Protection Film" />
                 <h3>Paint Protection Film</h3>
                 <p>Invisible protection for your vehicle's paint</p>
               </div>
               <div className="service-card">
-                <img src="/placeholder.svg?height=200&width=300" alt="Ceramic Coating" />
+                <img src="/ip6.jpg?height=200&width=300" alt="Ceramic Coating" />
                 <h3>Ceramic Coating</h3>
                 <p>Long-lasting shine and protection</p>
               </div>
