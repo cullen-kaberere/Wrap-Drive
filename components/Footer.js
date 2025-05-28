@@ -22,14 +22,14 @@ export default function Footer() {
 
           <div className="footer-section">
             <h4>Contact</h4>
-            <p>📱 +254 700 000 000</p>
-            <p>📧 info@wrapanddrive.co.ke</p>
-            <p>📍 Nairobi, Kenya</p>
+            <p> +254792391610</p>
+            <p> wrapndrivelimited@gmail.com</p>
+            <p> Nairobi, Kenya</p>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 Wrap & Drive. All rights reserved.</p>
+          <p>&copy; 2025 Wrap & Drive. All rights reserved.</p>
         </div>
       </div>
     </footer>

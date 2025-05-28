@@ -31,7 +31,7 @@ export default function About() {
                 </p>
               </div>
               <div className="about-image">
-                <img src="/ip9.jpg?height=400&width=500" alt="Wrap & Drive workshop" />
+                <img src="/ip1.jpg?height=400&width=500" alt="Wrap & Drive workshop" />
               </div>
             </div>
           </div>
@@ -66,14 +66,14 @@ export default function About() {
             <div className="experience-content">
               <h2>Professional Experience</h2>
               <div className="stats-grid">
-                <div className="stat">
+                {/* <div className="stat">
                   <h3>500+</h3>
                   <p>Vehicles Transformed</p>
                 </div>
                 <div className="stat">
                   <h3>5+</h3>
                   <p>Years Experience</p>
-                </div>
+                </div> */}
                 <div className="stat">
                   <h3>100%</h3>
                   <p>Customer Satisfaction</p>

@@ -32,35 +32,35 @@ export default function Contact() {
 
                 <div className="contact-methods">
                   <div className="contact-method">
-                    <div className="contact-icon">📱</div>
+                    <div className="contact-icon"></div>
                     <div>
                       <h3>Phone</h3>
-                      <p>+254 700 000 000</p>
+                      <p>+254792391610</p>
                     </div>
                   </div>
 
                   <div className="contact-method">
-                    <div className="contact-icon">📧</div>
+                    <div className="contact-icon"></div>
                     <div>
                       <h3>Email</h3>
-                      <p>info@wrapanddrive.co.ke</p>
+                      <p>wrapndrivelimited@gmail.com</p>
                     </div>
                   </div>
 
                   <div className="contact-method">
-                    <div className="contact-icon">📍</div>
+                    <div className="contact-icon"></div>
                     <div>
                       <h3>Location</h3>
                       <p>
-                        Nairobi, Kenya
+                        Nothern bypass, opposite quickmart thome, Gachie
                         <br />
-                        Industrial Area
+                        Nairobi, Kenya
                       </p>
                     </div>
                   </div>
 
                   <div className="contact-method">
-                    <div className="contact-icon">🕒</div>
+                    <div className="contact-icon"></div>
                     <div>
                       <h3>Hours</h3>
                       <p>
@@ -78,15 +78,25 @@ export default function Contact() {
               </div>
 
               <div className="map-section">
-                <h3>Find Us</h3>
-                <div className="map-placeholder">
-                  <img src="/placeholder.svg?height=400&width=500" alt="Map location of Wrap & Drive" />
-                  <div className="map-overlay">
-                    <p>📍 Wrap & Drive Location</p>
-                    <small>Click to open in Google Maps</small>
-                  </div>
-                </div>
-              </div>
+  <h3>Find Us</h3>
+  <div className="map-placeholder">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d908.7408648317944!2d36.872593904936906!3d-1.2124852129012467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1748451817765!5m2!1sen!2ske"
+      width="100%"
+      height="450"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Wrap & Drive Location"
+    ></iframe>
+    {/* <div className="map-overlay">
+      <p>📍 Wrap & Drive Location</p>
+      <small>Click the map to view on Google Maps</small>
+    </div> */}
+  </div>
+</div>
+
             </div>
           </div>
         </section>

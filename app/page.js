@@ -31,7 +31,7 @@ export default function Home() {
               </button>
             </div>
             <div className="hero-image">
-              <img src="/ip1.jpg?height=500&width=800" alt="Customized luxury car with vinyl wrap" />
+              <img src="/ip9.jpg?height=500&width=800" alt="Customized luxury car with vinyl wrap" />
             </div>
           </div>
         </section>
