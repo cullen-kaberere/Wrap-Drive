@@ -52,7 +52,7 @@ export default function Services() {
 
   const handleWhatsAppClick = (serviceName) => {
     const message = `Hi! I'm interested in your ${serviceName} service. Can you provide more details and pricing?`
-    const phoneNumber = "254700000000" // Replace with actual number
+    const phoneNumber = "254703201556" // Replace with actual number
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(url, "_blank")
   }

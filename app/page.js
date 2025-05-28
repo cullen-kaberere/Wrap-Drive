@@ -7,7 +7,7 @@ import WhatsAppFloat from "../components/WhatsAppFloat"
 export default function Home() {
   const handleWhatsAppClick = () => {
     const message = "Hi! I'm interested in your automotive services. Can you provide more information?"
-    const phoneNumber = "254700000000" // Replace with actual number
+    const phoneNumber = "254703201556" // Replace with actual number
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(url, "_blank")
   }
