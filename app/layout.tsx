@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Wrap & Drive',
   description: 'Created with v0',
   generator: 'v0.dev',
+  icons: {
+      icon: "/Fav8.png", 
+    }
 }
 
 export default function RootLayout({
