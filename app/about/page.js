@@ -31,7 +31,7 @@ export default function About() {
                 </p>
               </div>
               <div className="about-image">
-                <img src="/placeholder.svg?height=400&width=500" alt="Wrap & Drive workshop" />
+                <img src="/ip9.jpg?height=400&width=500" alt="Wrap & Drive workshop" />
               </div>
             </div>
           </div>
