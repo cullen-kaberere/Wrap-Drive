@@ -25,7 +25,7 @@ export default function About() {
                   name in the automotive industry.
                 </p>
                 <p>
-                  We believe every vehicle tells a story, and we're here to help you tell yours. Whether it's a complete
+                  We believe every vehicle tells a story, and we are here to help you tell yours. Whether it's a complete
                   color transformation, protective coating, or custom modifications, we bring your vision to life with
                   precision and care.
                 </p>

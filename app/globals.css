@@ -256,7 +256,7 @@ body {
 
 /* Page Hero Styles */
 .page-hero {
-  background: linear-gradient(135deg, #000 0%, #333 100%);
+  background: linear-gradient(135deg, #000 3%, #df1414 100%);
   color: #fff;
   padding: 6rem 0 4rem;
   text-align: center;
