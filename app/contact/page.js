@@ -3,6 +3,7 @@
 import Header from "../../components/Header"
 import Footer from "../../components/Footer"
 import WhatsAppFloat from "../../components/WhatsAppFloat"
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa'
 
 export default function Contact() {
   const handleWhatsAppClick = () => {
@@ -32,7 +33,7 @@ export default function Contact() {
 
                 <div className="contact-methods">
                   <div className="contact-method">
-                    <div className="contact-icon"></div>
+                    <div className="contact-icon"><FaPhoneAlt /></div>
                     <div>
                       <h3>Phone</h3>
                       <p>+254792391610</p>
@@ -40,7 +41,7 @@ export default function Contact() {
                   </div>
 
                   <div className="contact-method">
-                    <div className="contact-icon"></div>
+                    <div className="contact-icon"><FaEnvelope /></div>
                     <div>
                       <h3>Email</h3>
                       <p>wrapndrivelimited@gmail.com</p>
@@ -48,7 +49,7 @@ export default function Contact() {
                   </div>
 
                   <div className="contact-method">
-                    <div className="contact-icon"></div>
+                    <div className="contact-icon"><FaMapMarkerAlt /></div>
                     <div>
                       <h3>Location</h3>
                       <p>
@@ -60,7 +61,7 @@ export default function Contact() {
                   </div>
 
                   <div className="contact-method">
-                    <div className="contact-icon"></div>
+                    <div className="contact-icon"><FaClock /></div>
                     <div>
                       <h3>Hours</h3>
                       <p>
