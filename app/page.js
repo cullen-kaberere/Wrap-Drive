@@ -3,6 +3,7 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import WhatsAppFloat from "../components/WhatsAppFloat"
+import { FaPaintBrush, FaBolt, FaShieldAlt, FaMobileAlt } from 'react-icons/fa'
 
 export default function Home() {
   const handleWhatsAppClick = () => {
@@ -42,22 +43,22 @@ export default function Home() {
             <h2>Why Choose Wrap & Drive?</h2>
             <div className="features-grid">
               <div className="feature">
-                <div className="feature-icon">🎨</div>
+                <div className="feature-icon"><FaPaintBrush /></div>
                 <h3>Premium Materials</h3>
                 <p>We use only the highest quality vinyl, PPF, and ceramic coating products</p>
               </div>
               <div className="feature">
-                <div className="feature-icon">⚡</div>
+                <div className="feature-icon"><FaBolt /></div>
                 <h3>Expert Craftsmanship</h3>
                 <p>Years of experience in automotive customization and detailing</p>
               </div>
               <div className="feature">
-                <div className="feature-icon">🛡️</div>
+                <div className="feature-icon"><FaShieldAlt /></div>
                 <h3>Protection & Style</h3>
                 <p>Enhance your vehicle's appearance while protecting its value</p>
               </div>
               <div className="feature">
-                <div className="feature-icon">📱</div>
+                <div className="feature-icon"><FaMobileAlt /></div>
                 <h3>Easy Booking</h3>
                 <p>Quick consultation and booking through WhatsApp</p>
               </div>
