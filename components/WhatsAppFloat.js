@@ -1,5 +1,6 @@
 "use client"
 
+import { FaWhatsapp } from 'react-icons/fa'
 export default function WhatsAppFloat() {
   const handleClick = () => {
     const message = "Hi! I'd like to inquire about your automotive services."
@@ -10,7 +11,7 @@ export default function WhatsAppFloat() {
 
   return (
     <div className="whatsapp-float" onClick={handleClick}>
-      <div className="whatsapp-icon">💬</div>
+      <FaWhatsapp className="whatsapp-icon" />
     </div>
   )
 }
