@@ -901,3 +901,18 @@ body {
   height: 50px;
   width: auto;
 }
+
+.social-icons {
+  display: flex;
+  gap: 32px;
+  font-size: 1.5rem;
+}
+
+.social-icons a {
+  color: #fff; /* or your brand color */
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #df1414; /* hover color */
+}

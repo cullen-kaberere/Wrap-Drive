@@ -1,3 +1,4 @@
+import { FaFacebookF, FaInstagram, FaXTwitter, FaTiktok } from 'react-icons/fa6';
 export default function Footer() {
   return (
     <footer className="footer">
@@ -27,6 +28,24 @@ export default function Footer() {
             <p> Nairobi, Kenya</p>
           </div>
         </div>
+
+        <div className="footer-section">
+            <h4>Follow Us</h4>
+            <div className="social-icons">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <FaFacebookF />
+              </a>
+              <a href="https://www.instagram.com/wrap_n_drive/" target="_blank" rel="noopener noreferrer">
+                <FaInstagram />
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <FaXTwitter />
+              </a>
+              <a href="https://www.tiktok.com/@wrap_n_drive" target="_blank" rel="noopener noreferrer">
+                <FaTiktok />
+              </a>
+            </div>
+          </div>
 
         <div className="footer-bottom">
           <p>&copy; 2025 Wrap & Drive. All rights reserved.</p>
