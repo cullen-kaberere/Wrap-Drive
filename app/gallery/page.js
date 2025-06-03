@@ -5,10 +5,10 @@ import WhatsAppFloat from "../../components/WhatsAppFloat"
 export default function Gallery() {
   const galleryItems = [
     {
-      title: "Matte Black BMW Wrap",
+      title: "Matte Black Mercedes Wrap",
       category: "Vinyl Wrap",
-      before: "/placeholder.svg?height=300&width=400",
-      after: "/placeholder.svg?height=300&width=400",
+      before: "/ip5.jpg?height=300&width=400",
+      after: "/ip5.jpg?height=300&width=400",
     },
     {
       title: "Mercedes PPF Installation",
@@ -20,7 +20,7 @@ export default function Gallery() {
       title: "Audi Ceramic Coating",
       category: "Ceramic Coating",
       before: "/placeholder.svg?height=300&width=400",
-      after: "/placeholder.svg?height=300&width=400",
+      after: "/ip17.jpg?height=300&width=400",
     },
     {
       title: "Range Rover Custom Wrap",
