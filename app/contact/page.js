@@ -115,7 +115,7 @@ export default function Contact() {
         </section>
       </main>
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </>
   )
 }

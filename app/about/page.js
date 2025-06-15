@@ -88,7 +88,7 @@ export default function About() {
         </section>
       </main>
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </>
   )
 }
