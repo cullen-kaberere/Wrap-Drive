@@ -72,7 +72,7 @@ export default function Home() {
             <h2>Our Services</h2>
             <div className="services-grid">
               <div className="service-card">
-                <img src="/ip5.jpg?height=200&width=300" alt="Vinyl Wrap" />
+                <img src="/ip19.jpg?height=200&width=300" alt="Vinyl Wrap" />
                 <h3>Vinyl Wraps</h3>
                 <p>Complete color changes and custom designs</p>
               </div>

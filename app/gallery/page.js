@@ -1,44 +1,53 @@
 import Header from "../../components/Header"
 import Footer from "../../components/Footer"
-import WhatsAppFloat from "../../components/WhatsAppFloat"
+// import WhatsAppFloat from "../../components/WhatsAppFloat"
 
 export default function Gallery() {
   const galleryItems = [
     {
-      title: "Matte Black Mercedes Wrap",
-      category: "Vinyl Wrap",
-      before: "/ip5.jpg?height=300&width=400",
-      after: "/ip5.jpg?height=300&width=400",
+      title: "Custom Paint",
+      category: "Custom Paint",
+      image: "/ip4.jpg", // Replace with actual image
     },
     {
-      title: "Mercedes PPF Installation",
+      title: "Porsche",
+      category: "Leather coating",
+      image: "/ip5.jpg",
+    },
+    {
+      title: "Mercedes ",
       category: "Paint Protection",
-      before: "/placeholder.svg?height=300&width=400",
-      after: "/placeholder.svg?height=300&width=400",
+      image: "/ip19.jpg",
     },
     {
-      title: "Audi Ceramic Coating",
+      title: "Volvo",
       category: "Ceramic Coating",
-      before: "/placeholder.svg?height=300&width=400",
-      after: "/ip17.jpg?height=300&width=400",
+      image: "/ip7.jpg",
     },
     {
-      title: "Range Rover Custom Wrap",
+      title: "Range Rover",
       category: "Custom Design",
-      before: "/placeholder.svg?height=300&width=400",
-      after: "/placeholder.svg?height=300&width=400",
+      image: "/ip2.jpg",
     },
     {
-      title: "Porsche Window Tinting",
-      category: "Window Tinting",
-      before: "/placeholder.svg?height=300&width=400",
-      after: "/placeholder.svg?height=300&width=400",
+      title: "Window Works",
+      category: "Window Works",
+      image: "/ip18.jpg",
     },
     {
-      title: "Toyota Complete Detailing",
+      title: "Audi",
       category: "Auto Detailing",
-      before: "/placeholder.svg?height=300&width=400",
-      after: "/placeholder.svg?height=300&width=400",
+      image: "/ip14.jpg",
+    },
+    {
+      title: "Audi Sq8 Complete Detailing",
+      category: "Interior",
+      image: "/ip20.jpg",
+    },
+    {
+      title: "Audi Chameleon tint",
+      category: "Chameleon tint",
+      image: "/ip16.jpg",
     },
   ]
 
@@ -53,25 +62,23 @@ export default function Gallery() {
           </div>
         </section>
 
-        <section className="gallery-section">
+        <section className="modern-gallery">
           <div className="container">
             <div className="gallery-grid">
               {galleryItems.map((item, index) => (
-                <div key={index} className="gallery-item">
-                  <div className="gallery-header">
-                    <h3>{item.title}</h3>
-                    <span className="category-tag">{item.category}</span>
-                  </div>
-                  <div className="before-after">
-                    <div className="before">
-                      <h4>Before</h4>
-                      <img src={item.before || "/placeholder.svg"} alt={`${item.title} before`} />
+                <div key={index} className="gallery-card">
+                  <div className="image-container">
+                    <img 
+                      src={item.image} 
+                      alt={item.title}
+                      className="gallery-image"
+                      loading="lazy"
+                    />
+                    <div className="image-overlay">
+                     <span className="category-tag">{item.category}</span>
                     </div>
-                    <div className="after">
-                      <h4>After</h4>
-                      <img src={item.after || "/placeholder.svg"} alt={`${item.title} after`} />
-                    </div>
-                  </div>
+                  </div> 
+                  <h3 className="gallery-title">{item.title}</h3>
                 </div>
               ))}
             </div>
@@ -83,23 +90,23 @@ export default function Gallery() {
             <h2>What Our Clients Say</h2>
             <div className="testimonials-grid">
               <div className="testimonial">
-                <p>"Exceptional work on my BMW wrap. The attention to detail is incredible!"</p>
-                <div className="testimonial-author">- John M.</div>
+                <p>"Wrap & Drive transformed my car completely. The satin finish looks premium and turns heads."</p>
+                <div className="testimonial-author">- Alex Mwendwa.</div>
               </div>
               <div className="testimonial">
-                <p>"Professional service and amazing results. Highly recommend Wrap & Drive."</p>
-                <div className="testimonial-author">- Sarah K.</div>
+                <p>"The team did a flawless job on the PPF. You can barely tell it’s there, exactly what I wanted."</p>
+                <div className="testimonial-author">- Sarah Kimani.</div>
               </div>
               <div className="testimonial">
-                <p>"The ceramic coating has kept my car looking brand new for over a year."</p>
-                <div className="testimonial-author">- Mike R.</div>
+                <p>"I was skeptical about ceramic coating, but a year later, my car still looks freshly detailed. Worth every shilling!"</p>
+                <div className="testimonial-author">- Kevin Ominde.</div>
               </div>
             </div>
           </div>
         </section>
       </main>
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
     </>
   )
 }
