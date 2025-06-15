@@ -2,7 +2,7 @@
 
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import WhatsAppFloat from "../components/WhatsAppFloat"
+import ChatbotFloat from "../components/ChatbotFloat"
 import { FaPaintBrush, FaBolt, FaShieldAlt, FaMobileAlt } from 'react-icons/fa'
 
 export default function Home() {
@@ -96,7 +96,7 @@ export default function Home() {
         </section>
       </main>
       <Footer />
-      <WhatsAppFloat />
+      <ChatbotFloat />
     </>
   )
 }
