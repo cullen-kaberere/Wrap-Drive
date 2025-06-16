@@ -48,7 +48,8 @@ export default function Footer() {
           </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2025 Wrap & Drive. All rights reserved.</p>
+          <p>&copy; 2025 Wrap & Drive.</p> 
+           {/* All rights reserved. */}
         </div>
       </div>
     </footer>
