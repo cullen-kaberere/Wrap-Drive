@@ -34,7 +34,7 @@ export default function ChatbotFloat() {
     "hey": `👋 Hey! Need info on our services? Just ask!`,
     "habari": `Jambo! Unauliza kuhusu huduma gani? Tuna:<br>• Vinyl Wrapping<br>• PPF<br>• Ceramic Coating`,
     "services": `🎨 <b>Our Services:</b><br><br>• <u>Vinyl Wrapping</u><br>- Full: KSh 70,000+<br>- Partial: KSh 25,000+<br><br>• <u>Paint Protection Film (PPF)</u><br>- Full Front: KSh 50,000+<br><br>• <u>Ceramic Coating</u><br>- Standard: KSh 40,000+<br>- Premium: KSh 65,000+`,
-    "wrapping": `🚗 <b>Vinyl Wraps:</b><br>• Full: KSh 70,000+ (3-5 days)<br>• Partial: KSh 25,000+ (2-3 days)<br>• <i>5-year color warranty</i>`,
+    "wrapping": `🚗 <b>Vinyl Wraps:</b><br>• Full: KSh 100,000+ (3-5 days)<br>• Partial: KSh 25,000+ (2-3 days)<br>• <i>5-year color warranty</i>`,
     "ppf": `🛡️ <b>Paint Protection Film:</b><br>• Self-healing clear film<br>• Full front: KSh 50,000+<br>• Full car: KSh 120,000+<br>• <i>7-year warranty</i>`,
     "ceramic": `✨ <b>Ceramic Coating:</b><br>• Standard: KSh 40,000 (2 yrs)<br>• Premium: KSh 65,000 (5 yrs)<br>• <i>Hydrophobic protection</i>`,
     "price": `💵 <b>Price Guide:</b><br><br>• <u>Wrapping</u><br>- Full: KSh 70,000+<br>- Partial: KSh 25,000+<br><br>• <u>PPF</u><br>- Front: KSh 50,000+<br><br>• <u>Coating</u><br>- Standard: KSh 40,000+`,
