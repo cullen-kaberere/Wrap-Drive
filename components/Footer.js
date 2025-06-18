@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { FaFacebookF, FaInstagram, FaXTwitter, FaTiktok } from 'react-icons/fa6';
 export default function Footer() {
   return (
@@ -7,6 +8,26 @@ export default function Footer() {
           <div className="footer-section">
             <h3>Wrap & Drive</h3>
             <p>Premium automotive customization and protection services.</p>
+          </div>
+          <div className="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li>
+                <Link href="/"> Home</Link>
+              </li>
+              <li>
+                <Link href="/about"> About Us</Link>
+              </li>
+              <li>
+                <Link href="/services"> Services</Link>
+              </li>
+              <li>
+                <Link href="/gallery"> Gallery</Link>
+              </li>
+              <li>
+                <Link href="/contact"> Contact</Link>
+              </li>
+            </ul>
           </div>
 
           <div className="footer-section">
