@@ -21,14 +21,13 @@ export default function Home() {
         <section className="hero">
           <div className="hero-content">
             <div className="hero-text">
-              <h1>Transform Your Ride</h1>
-              <h2>Premium Automotive Customization</h2>
+              <h1>Drive Bold. Drive Unique.</h1>
+              <h2>Premium Vehicle Customization & Protection</h2>
               <p>
-                At Wrap & Drive, we specialize in premium vinyl wraps, paint protection, ceramic coating, and complete
-                automotive transformations. Your vision, our expertise.
+                At Wrap & Drive, we turn your car into a statement. From precision vinyl wraps to ceramic coatings and paint protection, our expert craftsmanship brings your automotive vision to life with style, quality, and performance in mind.
               </p>
               <button className="cta-button" onClick={handleWhatsAppClick}>
-                Book Your Service
+                Get a Custom Quote
               </button>
             </div>
             <div className="hero-image">
@@ -45,7 +44,7 @@ export default function Home() {
               <div className="feature">
                 <div className="feature-icon"><FaPaintBrush /></div>
                 <h3>Premium Materials</h3>
-                <p>We use only the highest quality vinyl, PPF, and ceramic coating products</p>
+                <p>We source only the finest vinyl, PPF, and ceramic coating products</p>
               </div>
               <div className="feature">
                 <div className="feature-icon"><FaBolt /></div>
