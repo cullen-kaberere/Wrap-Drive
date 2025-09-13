@@ -4,7 +4,7 @@ import ChatbotFloat from '@/components/ChatbotFloat' // Make sure path is correc
 
 export const metadata: Metadata = {
   title: 'Wrap & Drive',
-  description: 'Created with v0',
+  description: 'Created by Cullen',
   generator: 'v0.dev',
   icons: {
     icon: "/Fav8.png", 
